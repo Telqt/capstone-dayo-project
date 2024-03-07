@@ -3,7 +3,7 @@
 ?>
 
 <div class="signup-container">
-    <form action="trial.login.php" method="post">
+    <form action="login.inc.php" method="post">
         <h4>Login</h4>
         <div class="input-field">
             <input class="email" type="email" name="email" required autocomplete="off">
