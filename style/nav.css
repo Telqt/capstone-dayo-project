@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    transition: background-color .2s ease-in-out,
+    border .2s ease-in-out,
+    color .2s ease-in-out;
+}
+
+#header.scrolled {
+    background-color: white;
+    color: #333;
+    border: solid 1px lightgray;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+    padding: 30px 20px;
+    transition: 200ms ease;
+}
+
+.sub {
+    line-height: 12px;
+    font-size: .8rem;
+    padding-top: 5px;
+}
+
+.logo h1{
+    font-size: 1.6rem;
+    letter-spacing: .7rem;
+}
+
+.logo p {
+    font-size: .8rem;
+    margin-left: 20px;
+}
+
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 32px 20px;
+    text-decoration: none;
+    color: white;
+    transition: 200ms ease;
+    font-size: .8rem;
+    transition: color .2s ease-in-out,
+    box-shadow .2s ease;
+}
+
+#header.scrolled nav a {
+    color: #333;
+}
+
+nav ul li a:hover {
+    box-shadow: inset 0 -5px black;
+}
+
+
+.logsign {
+    display: flex;
+}
+
+.login-btn,
+.signup-btn {
+    padding: 32px 20px;
+    margin-right: 10px;
+    font-size: .8rem;
+    transition: 200ms ease;
+}
+
+.logsign a {
+    text-decoration: none;
+    color: white;
+}
+
+#header.scrolled .logsign a {
+    color: #333;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+    box-shadow: inset 0 -5px black;
+    cursor: pointer;
+}
+
+#cart {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    padding: 5px;
+    height: 1.5em;
+}
+
+#cart path {
+    fill: white;
+    transition: fill .2s ease-in-out;
+}
+
+#header.scrolled #cart path {
+    fill: #333;
+}

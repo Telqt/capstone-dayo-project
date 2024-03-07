@@ -1,0 +1,127 @@
+.featured {
+    background: white;
+    padding: 20px 100px;
+}
+
+.featured h4 {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new {
+    padding: 10px 20px;
+    background: rgb(200, 0, 0);
+    color: white;
+    font-size: .9rem;
+    margin-left: 10px;
+}
+
+.product-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.product-card {
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.product-card-top {
+    height: 70%;
+    background: blue;
+}
+
+.product-card-img1 {
+    height: 100%;
+    width: 100%;
+    background: url(../img/feature1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-card-img2 {
+    height: 100%;
+    width: 100%;
+    background: url(../img/feature2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-card-img3 {
+    height: 100%;
+    width: 100%;
+    background: url(../img/feature3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-card-img4 {
+    height: 100%;
+    width: 100%;
+    background: url(../img/feature4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-card-bottom {
+    background: white;
+    height: 30%;
+    padding: 10px;
+    position: relative;
+}
+
+.product-card-name {
+    font-size: .8rem;
+    max-height: 50%;
+    text-align: center;
+}
+
+.product-card-price {
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    color: rgb(200, 0, 0);
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.product-card-stock {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    font-size: .9rem;
+}
+
+.view-more {
+    background: rgb(200, 0, 0);
+    padding: 15px;
+    float: right;
+    margin: 20px 70px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.view-more:hover {
+    background: rgb(255, 20, 20);
+}
+
+.view-more:active {
+    background: rgb(255, 95, 95);
+}

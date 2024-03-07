@@ -1,0 +1,88 @@
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 120px;
+    width: 100%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.categ {
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.categ svg {
+    height: 150px;
+}
+
+.call-us,
+.email-us,
+.live-chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    text-align: center;
+
+}
+
+.email-btn,
+.msg-btn,
+.call-btn {
+    margin-top: 20px;
+    width: 200px;
+    color: seagreen;
+    border: solid 1px seagreen;
+    background: none;
+    padding: 15px;
+    cursor: pointer;
+    /* border: solid black 1px; */
+    transition: 100ms ease-in-out;
+    position: relative;
+    text-decoration: none;
+}
+
+.email-btn:hover,
+.msg-btn:hover,
+.call-btn:hover {
+    background: seagreen;
+    color: white;
+    border: solid 1px seagreen;
+}
+
+.call-us input {
+    display: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+.tooltip {
+    background: #444;
+    padding: 10px;
+    width: 200px;
+    position: absolute;
+    top: -40px;
+    left: -1px;
+    border: solid 1px #444;
+    color: white;
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.call-btn:hover .tooltip {
+    opacity: .8;
+}

@@ -1,0 +1,54 @@
+.bg {
+    width: 100%;
+    height: 700px;
+    background: url(../img/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.bg::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .7), rgba(0, 0, 0, .6), rgba(0, 0, 0, .5), rgba(0, 0, 0, .4), rgba(0, 0, 0, .2), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.bg h4 {
+    color: white;
+    position: absolute;
+    font-size: 3rem;
+    width: 60%;
+    text-transform: uppercase;
+    left: 5%;
+    bottom: 25%;
+    text-shadow: 5px 5px 10px #000;
+    user-select: none;
+}
+
+.shopnow {
+    background: rgb(200, 0, 0);
+    color: white;
+    position: absolute;
+    padding: 20px 30px;
+    left: 5%;
+    bottom: 10%;
+    cursor: pointer;
+    border: none;
+    font-weight: normal;
+    user-select: none;
+    border-radius: 3px;
+}
+
+.shopnow:hover {
+    background: rgb(255, 20, 20);
+}
+
+.shopnow:active {
+    background: rgb(255, 95, 95);
+}
