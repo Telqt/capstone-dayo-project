@@ -1,0 +1,65 @@
+.shop-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+}
+
+.shop-container {
+    /* background: blue; */
+    padding-top: 100px;
+    display: grid;
+    grid-template-rows: 200px 100px 100px 100px;
+    grid-template-columns: 500px 500px;
+}
+
+.item {
+    background: rgb(255, 74, 74);
+    padding: 10px;
+    margin: 10px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.item:hover {
+    box-shadow: 0 0 5px #000;
+    cursor: pointer;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: url("../img/all-prod-dark.jpg");
+    background-position: 100px -50px;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 100px;
+    background-size: 100%;
+    transition: 200ms ease-in-out;
+    letter-spacing: -15px;
+    text-shadow: 0 0 10px #000;
+}
+
+.item1:hover {
+    background-size: 105%;
+}
+
+.item2 {
+    background: url("../img/bags-with-frame-bg-dark.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 10%;
+}
+
+
+
+.item6 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

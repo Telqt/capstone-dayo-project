@@ -17,6 +17,7 @@ session_start();
     <link rel="stylesheet" href="./style/footer.css">
     <link rel="stylesheet" href="./style/signup.css">
     <link rel="stylesheet" href="./style/contact.css">
+    <link rel="stylesheet" href="./style/shop.css">
     <link rel="shortcut icon" href="./img/android-chrome-512x512.png" type="image/x-icon">
     <title>DAYO | Tactical Gear</title>
 </head>

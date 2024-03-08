@@ -4,8 +4,16 @@
 
 ?>
 
-<br><br><br><br><br>
-<h1>SHOP</h1><h1>NOW</h1>
+<div class="shop-wrapper">
+    <div class="shop-container">
+        <div class="item item1">All Products</div>
+        <div class="item item2">Bags with Frame</div>
+        <div class="item item3">Back to Back Vest</div>
+        <div class="item item4">Bandoliers</div>
+        <div class="item item5">Bags</div>
+        <div class="item item6">Parts and Accessories</div>
+    </div>
+</div>
 
 <?php
 
