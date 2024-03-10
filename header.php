@@ -30,7 +30,7 @@ session_start();
             <li><a href="contact.php">Contact Us</a></li>
         </ul>
     </nav>
-    <div class="logo">
+    <div class="logo" onclick="window.location.href = 'index.php'">
         <h1>DAYO |</h1>
         <span class="sub">Tactical <br>Gear</span>
     </div>
